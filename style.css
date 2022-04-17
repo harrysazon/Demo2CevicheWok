@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(245,245,255);
+}
+
+header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+ul {
+    padding: 25px 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+button:hover {
+    background-color: black; /* Green */
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  }
+
+#hero {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    color: white;
+    background-image: url("media/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+#hero p {
+    padding: 30px;
+}
+
+.content {
+    padding: 50px 0;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h2, .content p {
+    padding: 10px 0;
+}
+
+.content img {
+    max-width: 800px;
+    padding-top: 20px;
+}
+
+.content p {
+    padding-bottom: 20px;
+}
+
+#h2-carrusel {
+    text-align: center;
+}
+
+.carrusel {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.carrusel img {
+    max-width: 100%;
+    background-position: center center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.socialmedia a img {
+    margin: 50px;
+    height: 70px;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px black;
+}
